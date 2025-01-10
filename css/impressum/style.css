@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Trispace:wght@100..800&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Maven Pro", serif;
+    line-height: 1.5;
+}
+
+/* Navigation ------------------------------------------------------------------------------------*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #03A696;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list img {
+    width: 60px;
+    height: 60px;
+}
+
+.nav-list li {
+    list-style: none;
+    font-size: 1.3em;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+.nav-list .name {
+    font-size: 1.8em;
+    letter-spacing: 3px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.menu-toggle .bar {
+    background-color: white;
+    height: 2.5px;
+    width: 30px;
+    margin: 3px 0;
+}
+
+/* Banner --------------------------------------------------------------------------------*/
+.header-image {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center; /* Vertikal zentrieren */
+}
+ .header-image p {
+     width: 50%;
+     font-size: 1.2em;
+     margin: 10px 0;
+ }
+
+.background-img {
+    background-image: url(./header-impressum.jpg);
+    filter: brightness(0.4);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.text{
+    position: relative;
+    color: white;
+    z-index: 2;
+    padding-left: 100px;
+}
+.text h1{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+
+.header-image button{
+    margin-top: 20px;
+    border: 1px solid #04BF9D;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: #04BF9D ;
+    cursor: pointer;
+}
+
+.header-image button:hover{
+    background-color: #038C7F;
+    border-color: #038C7F;
+}
+
+.header-image button a{
+    text-decoration: none;
+    color: white;
+    font-family: "Maven Pro", serif;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+/* Main */
+
+main {
+    margin: 50px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+#info {
+    margin-bottom: 30px;
+}
+
+#kontakt {
+    margin-bottom: 30px;
+}
+
+#mediengesetz {
+    margin-bottom: 50px;
+}
+
+#mediengesetz p {
+    margin-top: 0;
+}
+
+#info li {
+    padding: 5px;
+}
+
+
+
+#back-to-top{
+    text-align: end;
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+#back-to-top a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    border: 1px solid #04BF9D;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: #04BF9D ;
+    cursor: pointer;
+
+}
+
+#back-to-top a:hover{
+    text-decoration-line: underline;
+    background-color: #038C7F;
+    border-color: #038C7F;
+}
+
+footer{
+    padding: 15px 0;
+    margin-top: 50px;
+    background-color:  #03A696;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: #FFF;
+}

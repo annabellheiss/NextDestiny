@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Trispace:wght@100..800&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Maven Pro", serif;
+    line-height: 1.5;
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #03A696;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list img {
+    width: 60px;
+    height: 60px;
+}
+
+.nav-list li {
+    list-style: none;
+    font-size: 1.3em;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+.nav-list .name {
+    font-size: 1.8em;
+    letter-spacing: 3px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 20px;
+    /* position: absolute;  Burger Menü Rechts*/
+    /*right: 20px;          Burger Menü Rechts*/
+    background-color: #03A696;
+}
+
+.menu-toggle .bar {
+    background-color: white;
+    height: 2.5px;
+    width: 30px;
+    margin: 3px 0;
+}
+
+/* Banner */
+.header-image {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center; /* Vertikal zentrieren */
+}
+ .header-image p {
+     width: 50%;
+     font-size: 1.2em;
+     margin: 10px 0;
+ }
+.background-img {
+    background-image: url(../img/header2.jpg);
+    filter: brightness(0.4);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.text{
+    position: relative;
+    color: white;
+    z-index: 2;
+    padding-left: 100px;
+}
+.text h1{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+.text{
+    position: relative;
+    color: white;
+    z-index: 2;
+    padding-left: 100px;
+}
+
+.header-image button{
+    margin-top: 20px;
+    border: 1px solid #04BF9D;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: #04BF9D ;
+    cursor: pointer;
+}
+
+.header-image button:hover{
+    background-color: #038C7F;
+    border-color: #038C7F;
+}
+
+.header-image button a{
+    text-decoration: none;
+    color: white;
+    font-family: "Maven Pro", serif;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+/* Main */
+
+#about-1 {
+    justify-content: center; /* Zentriert den Inhalt horizontal */
+    align-items: center; /* Zentriert den Inhalt vertikal */
+    margin: 20px 200px;
+}
+
+#about-1 .about-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#about-1 .about-text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertikal zentrieren des Textes */
+    font-size: 1.1em;
+    padding: 20px 0;
+
+}
+#about-1 .about-text p {
+    margin: 10px 0;
+}
+#about-1 .about-text h2 {
+    margin: 0;
+}
+
+#about-1 .about-img{
+    width: 40%;
+    display: flex;
+    align-items: center; /* Zentriert das Bild vertikal */
+    justify-content: center;
+    padding: 30px;
+}
+
+#about-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+main hr{
+    margin: 50px 200px;
+    color: #04BF9D;
+}
+#about-2 {
+    justify-content: center; /* Zentriert den Inhalt horizontal */
+    align-items: center; /* Zentriert den Inhalt vertikal */
+    margin: 20px 200px;
+}
+
+#about-2 .about-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#about-2 .about-text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertikal zentrieren des Textes */
+    font-size: 1.1em;
+    padding: 20px 0;
+
+}
+#about-2 .about-text p {
+    margin: 10px 0;
+}
+#about-2 .about-text h2 {
+    margin: 0;
+}
+
+#about-2 .about-img{
+    width: 40%;
+    display: flex;
+    align-items: center; /* Zentriert das Bild vertikal */
+    justify-content: center;
+    padding: 30px;
+}
+
+#about-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Banner */
+.tipps-image {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center; /* Vertikal zentrieren */
+    text-align: center;
+}
+.tipps-image p {
+    font-size: 1.1em;
+    padding: 0 350px;
+    font-weight: 500;
+}
+
+.tipps-text{
+    position: relative;
+    color: white;
+    z-index: 2;
+}
+
+.tipps-text h1{
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+}
+
+.tipps-background-img {
+    background-image: url(../img/tipps-background.jpg);
+    filter: brightness(0.4);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.tipps-image button{
+    margin-top: 20px;
+    border: 1px solid #04BF9D;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: #04BF9D ;
+    cursor: pointer;
+}
+
+.tipps-image button:hover{
+    background-color: #038C7F;
+    border-color: #038C7F;
+}
+
+.tipps-image button a{
+    text-decoration: none;
+    color: white;
+    font-family: "Maven Pro", serif;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+
+
+#expectation{
+    display: flex;
+    margin: 50px 200px 80px 200px;
+
+}
+
+#expectation .expectation-text{
+    text-align: left;
+    font-size: 1.1em;
+}
+
+#expectation img{
+    width: 40%;
+    height: 40%;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+#top-destinations h2{
+    text-align: center;
+    color: #038C7F;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+#top-destinations .destinations{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+#top-destinations .destinations img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+#top-destinations .destinations .column{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /*Link auf gleicher Höhe*/
+
+}
+#top-destinations .destinations .column h3{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#top-destinations .destinations .column p{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+#top-destinations .destinations .column a{
+    color: #038C7F ;
+    text-decoration: none;
+
+}
+
+#top-destinations .destinations .column a:hover{
+    color:#04BF9D ;
+    text-decoration-line: underline;
+}
+
+#back-to-top{
+    text-align: end;
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+#back-to-top a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    border: 1px solid #04BF9D;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: #04BF9D ;
+    cursor: pointer;
+
+}
+
+#back-to-top a:hover{
+    text-decoration-line: underline;
+    background-color: #038C7F;
+    border-color: #038C7F;
+}
+
+footer{
+    padding: 15px 0;
+    margin-top: 50px;
+    background-color:  #03A696;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: #FFF;
+}

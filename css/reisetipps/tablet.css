@@ -1,0 +1,111 @@
+@media (max-width: 992px){
+
+    .menu-toggle{
+        display: flex;
+        z-index: 10;
+    }
+
+    .nav-list{
+        display: none; /*Menü vom Desktop ausblenden*/
+        flex-direction: column;
+        background-color: #03A696;
+        position: absolute;
+        top: 49px;
+        right: 0;
+        left: 0;
+        padding: 20px;
+        z-index: 9;
+    }
+
+    .nav-list .name{
+        display: none;
+    }
+
+    .nav-list li{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .nav-list li:last-child{
+        border: none;
+    }
+
+    .nav-list.active{
+        display: block;
+    }
+
+    .header-image p {
+        width: 80%;
+    }
+
+    /* Content ------------------------------------------------------------------------------------------*/
+    .tipp-v1 .container{
+        padding: 40px 150px 60px 150px;
+    }
+
+
+
+    .tipp-v1 .container .tipp-text{
+        font-size: 1.1em;
+
+    }
+
+    .tipp-v1 .container h1{
+        font-size: 90px;
+
+    }
+
+    .tipp-v1 .container p{
+        margin-top: 5px;
+
+    }
+
+
+    .tipp-v2 .container{
+        padding: 20px 150px 27px 150px;
+    }
+
+
+    .tipp-v2 .container .tipp-text{
+        font-size: 1.1em;
+    }
+
+    .tipp-v2 .container h1{
+        font-size: 90px;
+        margin: 0;
+
+    }
+
+    .tipp-v3 .container{
+        padding: 90px 150px 90px 150px;
+    }
+
+    .tipp-v3 .container .tipp-text{
+        font-size: 1.1em;
+        margin-left: 25px;
+    }
+
+    .tipp-v3 .container h1{
+        font-size: 90px;
+        margin: 0;
+    }
+
+    #back-to-top{
+        text-align: end;
+        margin-right: 50px;
+        margin-top: 20px;
+
+    }
+
+    #back-to-top{
+        text-align: end;
+        margin-right: 30px;
+        margin-top: 20px;
+
+    }
+
+    #back-to-top a{
+        font-size: 1.0em;
+    }
+
+}

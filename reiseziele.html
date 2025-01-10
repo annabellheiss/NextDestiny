@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/reiseziele/style.css">
+  <link rel="stylesheet" href="./css/reiseziele/tablet.css">
+  <link rel="stylesheet" href="./css/reiseziele/mobile.css">
+
+  <title>Reiseziele</title>
+</head>
+<body>
+  <header>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+        <ul class="nav-list">
+          <li><a href="index.html"><img src="./img/logo.png" alt=""></a></li>
+          <li class="name"><a href="./index.html">NextDestiny</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./reiseziele.html">Reiseziele</a></li>
+          <li><a href="./reisetipps.html">Reisetipps</a></li>
+        </ul>
+    </nav>
+
+    
+    <!-- Banner -->
+    <div class="header-image">
+      <div class="background-img"></div>
+      <div class="text">
+        <h1>Unsere Top-Reiseziele</h1>
+      </div>
+    </div>
+
+  </header>
+
+
+  <main>
+    <!-- Filter -->
+    <div class="filter-container">
+      <label for="filter">Sortieren nach:</label>
+      <select id="filter">
+        <option value="default">Standard</option>
+        <option value="alphabet-asc">Alphabetisch (A-Z)</option>
+        <option value="alphabet-desc">Alphabetisch (Z-A)</option>
+        <option value="price-asc">Preis (niedrig zu hoch)</option>
+        <option value="price-desc">Preis (hoch zu niedrig)</option>
+        <option value="rating-asc">Bewertung (niedrig zu hoch)</option>
+        <option value="rating-desc">Bewertung (hoch zu niedrig)</option>
+      </select>
+    </div>
+
+
+    <div class="reiseziele">
+
+      <!-- ALBANIEN -->
+      <section id="land">
+        <div class="land-text">
+          <h2>Albanien</h2>
+          <h4>Bewertung: ★★☆☆☆ </h4>
+          <h4>Preis: ca. 30-50 Euro pro Nacht</h4>
+          <h4>Beschreibung</h4>
+          <p>
+            Albanien ist ein wunderschönes Reiseziel mit atemberaubenden Stränden, historischen Stätten und einer günstigen Lebenshaltung. Die Küstenregionen bieten unberührte Strände mit türkisfarbenem Wasser und eine ruhige Atmosphäre. Zudem sind die Lebenshaltungskosten sehr niedrig – Essen, Unterkunft und Dienstleistungen sind erschwinglich. Neben der Natur locken historische Städte wie Butrint und Berat mit ihrer reichen Geschichte und gut erhaltenen Denkmälern. Insgesamt ist Albanien ideal für Reisende, die einen entspannten, aber auch kulturell bereichernden Urlaub suchen.  
+          </p>
+        </div>
+        
+        <!-- Slideshow Albanien -->
+        <button class="prev" data-slideshow="slideshow-albanien">&#10094;</button>
+        <div class="slideshow" id="slideshow-albanien">
+          <div class="slide">
+            <img src="./img/reiseziele/albanien/albanien1.jpg" alt="Albanien 1">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/albanien/albanien2.jpg" alt="Albanien 2">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/albanien/albanien3.jpg" alt="Albanien 3">
+          </div>
+        </div>
+        <button class="next" data-slideshow="slideshow-albanien">&#10095;</button>
+      </section>
+
+      <!-- Lightbox Albanien -->
+      <div class="lightbox-overlay" id="lightbox-albanien">
+        <button class="lightbox-prev">&#10094;</button>
+        <span class="close">&#10006;</span>
+        <img id="lightbox-img-albanien" src="" alt="">
+        <button class="lightbox-next">&#10095;</button>
+      </div>
+
+      
+      <!-- BULGARIEN -->
+    <div id="bulgarien">
+      <section id="land">
+          <div class="land-text">
+            <h2>Bulgarien</h2>
+            <h4>Bewertung: ★★★★☆ </h4>
+            <h4>Preis: ca. 25-40 Euro pro Nacht</h4>
+            <h4>Beschreibung</h4>
+            <p>
+              Die Schwarzmeerküste Bulgariens ist ein ideales Reiseziel für alle, die schöne Strände und erschwingliche Verpflegungsmöglichkeiten schätzen. Mit langen Sandstränden, kristallklarem Wasser und einer entspannten Atmosphäre zieht diese Region Besucher aus der ganzen Welt an. Besonders beliebt sind Badeorte wie Sonnenstrand (Slantschew Brjag) und Goldstrand (Slatni Pjasazi), die nicht nur Erholung, sondern auch ein breites Freizeitangebot bieten – von Wassersportarten bis hin zu lebendigem Nachtleben.
+            </p>
+          </div>
+        
+        <!-- Slideshow Bulgarien -->
+        <button class="prev" data-slideshow="slideshow-bulgarien">&#10094;</button>
+        <div class="slideshow" id="slideshow-bulgarien">
+          <div class="slide">
+            <img src="./img/reiseziele/bulgarien/bulgarien1.jpg" alt="Bulgarien 1">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/bulgarien/bulgarien2.jpg" alt="Bulgarien 2">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/bulgarien/bulgarien3.jpg" alt="Bulgarien 3">
+          </div>
+        </div>
+        <button class="next" data-slideshow="slideshow-bulgarien">&#10095;</button>
+      </section>
+    </div>
+
+      <!-- Lightbox Bulgarien -->
+      <div class="lightbox-overlay" id="lightbox-bulgarien">
+        <button class="lightbox-prev">&#10094;</button>
+        <span class="close">&#10006;</span>
+        <img id="lightbox-img-bulgarien" src="" alt="">
+        <button class="lightbox-next">&#10095;</button>
+      </div>
+
+      <!-- VIETNAM -->
+      <section id="land">
+        <div class="land-text">
+          <h2>Vietnam</h2>
+          <h4>Bewertung: ★★★☆☆ </h4>
+          <h4>Preis: ca. 15-30 Euro pro Nacht</h4>
+          <h4>Beschreibung</h4>
+          <p>
+            Vietnam ist ein faszinierendes Reiseziel, das mit seiner beeindruckenden Mischung aus erschwinglichen Preisen, reicher Kultur und atemberaubenden Landschaften begeistert. Das Land zieht Reisende aus aller Welt an, die nach einzigartigen Erlebnissen suchen, ohne ihr Budget zu sprengen. Insbesondere die niedrigen Lebenshaltungskosten machen Vietnam zu einem Paradies für Rucksacktouristen und preisbewusste Reisende. Ob für Unterkunft, Verpflegung oder Freizeitaktivitäten – die Ausgaben bleiben hier im Vergleich zu vielen anderen Ländern Asiens überraschend gering.
+          </p>
+        </div>
+        
+        <!-- Slideshow Vietnam -->
+        <button class="prev" data-slideshow="slideshow-vietnam">&#10094;</button>
+        <div class="slideshow" id="slideshow-vietnam">
+          <div class="slide">
+            <img src="./img/reiseziele/vietnam/vietnam1.jpg" alt="Vietnam 1">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/vietnam/vietnam2.jpg" alt="Vietnam 2">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/vietnam/vietnam3.jpg" alt="Vietnam 3">
+          </div>
+        </div>
+        <button class="next" data-slideshow="slideshow-vietnam">&#10095;</button>
+      </section>
+
+      <!-- Lightbox Vietnam -->
+      <div class="lightbox-overlay" id="lightbox-vietnam">
+        <button class="lightbox-prev">&#10094;</button>
+        <span class="close">&#10006;</span>
+        <img id="lightbox-img-vietnam" src="" alt="">
+        <button class="lightbox-next">&#10095;</button>
+      </div>
+
+      <!-- INDIEN -->
+      <section id="land">
+        <div class="land-text">
+          <h2>Indien</h2>
+          <h4>Bewertung: ★★★☆☆ </h4>
+          <h4>Preis: ca. 10-20 Euro pro Nacht</h4>
+          <h4>Beschreibung</h4>
+          <p>
+            Indien ist ein faszinierendes Land, das mit seiner reichen Kultur, tief verwurzelten Geschichte und einer Fülle erschwinglicher Erlebnisse begeistert. Das Land bietet Reisenden eine beeindruckende Vielfalt, von prächtigen Palästen und Tempeln bis hin zu farbenfrohen, lebhaften Märkten. Es ist ein Paradies für jene, die authentische Erlebnisse suchen, ohne dabei tief in die Tasche greifen zu müssen.
+            Die niedrigen Lebenshaltungskosten machen Indien zu einem idealen Ziel für preisbewusste Reisende. Ob Unterkunft, lokale Köstlichkeiten oder Transport – vieles ist hier überraschend günstig. 
+          </p>
+        </div>
+        
+        <!-- Slideshow Indien -->
+        <button class="prev" data-slideshow="slideshow-indien">&#10094;</button>
+        <div class="slideshow" id="slideshow-indien">
+          <div class="slide">
+            <img src="./img/reiseziele/indien/indien1.jpg" alt="Indien 1">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/indien/indien2.jpg" alt="Indien 2">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/indien/indien3.jpg" alt="Indien 3">
+          </div>
+        </div>
+        <button class="next" data-slideshow="slideshow-indien">&#10095;</button>
+      </section>
+
+      <!-- Lightbox Indien -->
+      <div class="lightbox-overlay" id="lightbox-indien">
+        <button class="lightbox-prev">&#10094;</button>
+        <span class="close">&#10006;</span>
+        <img id="lightbox-img-indien" src="" alt="">
+        <button class="lightbox-next">&#10095;</button>
+      </div>
+
+      
+      <!-- KENIA -->
+    <div id="kenia">
+      <section id="land">
+          <div class="land-text">
+            <h2>Kenia</h2>
+            <h4>Bewertung: ★★★★☆ </h4>
+            <h4>Preis: ca. 50-70 Euro pro Nacht + Safaris</h4>
+            <h4>Beschreibung</h4>
+            <p>
+              Kenia ist ein atemberaubendes Reiseziel, das für seine beeindruckenden Naturerlebnisse und die Möglichkeit, Wildtiere in ihrem natürlichen Lebensraum zu beobachten, bekannt ist. Es bietet eine einzigartige Kombination aus unberührten Landschaften, artenreicher Tierwelt und kulturellem Reichtum. Besonders reizvoll ist, dass Kenia solche Erlebnisse oft zu vergleichsweise erschwinglichen Preisen ermöglicht, was es zu einem idealen Ziel für Reisende macht, die Abenteuer und Natur schätzen.
+              Die Nationalparks wie Masai Mara, Amboseli und Tsavo sind weltbekannt für spektakuläre Wildtierbeobachtungen.
+            </p>
+          </div>
+        
+        <!-- Slideshow Kenia -->
+        <button class="prev" data-slideshow="slideshow-kenia">&#10094;</button>
+        <div class="slideshow" id="slideshow-kenia">
+          <div class="slide">
+            <img src="./img/reiseziele/kenia/kenia1.jpg" alt="Kenia 1">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/kenia/kenia2.jpg" alt="Kenia 2">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/kenia/kenia3.jpg" alt="Kenia 3">
+          </div>
+        </div>
+        <button class="next" data-slideshow="slideshow-kenia">&#10095;</button>
+      </section>
+    </div>
+
+      <!-- Lightbox Kenia -->
+      <div class="lightbox-overlay" id="lightbox-kenia">
+        <button class="lightbox-prev">&#10094;</button>
+        <span class="close">&#10006;</span>
+        <img id="lightbox-img-kenia" src="" alt="">
+        <button class="lightbox-next">&#10095;</button>
+      </div>
+      
+
+      <!-- SRI LANKA -->
+    <div id="sri-lanka">
+      <section id="land">
+          <div class="land-text">
+            <h2>Sri Lanka</h2>
+            <h4>Bewertung: ★★★★☆ </h4>
+            <h4>Preis: ca. 15-30 Euro pro Nacht</h4>
+            <h4>Beschreibung</h4>
+            <p>
+              Sri Lanka ist ein bezauberndes Reiseziel, das mit seiner atemberaubenden Natur, faszinierenden Geschichte und erschwinglichen Lebenshaltungskosten überzeugt. Das tropische Inselparadies bietet eine unglaubliche Vielfalt an Landschaften – von üppigen Regenwäldern und Teeplantagen in den Bergen bis hin zu palmengesäumten Stränden und türkisblauem Meer. Besonders beeindruckend ist die Fülle an Nationalparks, in denen Besucher Elefanten, Leoparden und andere exotische Tiere in freier Wildbahn erleben können.
+            </p>
+          </div>
+        
+        <!-- Slideshow Sri Lanka -->
+        <button class="prev" data-slideshow="slideshow-srilanka">&#10094;</button>
+        <div class="slideshow" id="slideshow-srilanka">
+          <div class="slide">
+            <img src="./img/reiseziele/srilanka/srilanka1.jpg" alt="Sri Lanka 1">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/srilanka/srilanka2.jpg" alt="Sri Lanka 2">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/srilanka/srilanka3.jpg" alt="Sri Lanka 3">
+          </div>
+        </div>
+        <button class="next" data-slideshow="slideshow-srilanka">&#10095;</button>
+      </section>
+    </div>
+    
+      <!-- Lightbox Sri Lanka -->
+      <div class="lightbox-overlay" id="lightbox-srilanka">
+        <button class="lightbox-prev">&#10094;</button>
+        <span class="close">&#10006;</span>
+        <img id="lightbox-img-srilanka" src="" alt="">
+        <button class="lightbox-next">&#10095;</button>
+      </div>
+      
+
+      <!-- RUMÄNIEN -->
+      <section id="land">
+        <div class="land-text">
+          <h2>Rumänien</h2>
+          <h4>Bewertung: ★★★☆☆ </h4>
+          <h4>Preis: ca. 20-40 Euro pro Nacht</h4>
+          <h4>Beschreibung</h4>
+          <p>
+            Städte wie Bukarest und die malerische Karpatenregion machen Rumänien zu einem erschwinglichen und zugleich faszinierenden Reiseziel. Bukarest, die Hauptstadt, beeindruckt mit einer Mischung aus historischen Sehenswürdigkeiten und modernem Charme. Besucher können hier den imposanten Parlamentspalast, eines der größten Gebäude der Welt, bewundern oder durch das Altstadtviertel Lipscani schlendern, das mit Kopfsteinpflaster, kleinen Boutiquen und gemütlichen Cafés lockt. Die Stadt ist bekannt für günstige Preise bei Unterkünften, Essen und Verkehr – ideal für Sparfüchse.  </p>
+        </div>
+        
+        <!-- Slideshow Rumänien -->
+        <button class="prev" data-slideshow="slideshow-rumaenien">&#10094;</button>
+        <div class="slideshow" id="slideshow-rumaenien">
+          <div class="slide">
+            <img src="./img/reiseziele/rumaenien/rumaenien1.jpg" alt="Rumaenien 1">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/rumaenien/rumaenien2.jpg" alt="Rumaenien 2">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/rumaenien/rumaenien3.jpg" alt="Rumaenien 3">
+          </div>
+        </div>
+        <button class="next" data-slideshow="slideshow-rumaenien">&#10095;</button>
+      </section>
+
+      <!-- Lightbox Rumänien -->
+      <div class="lightbox-overlay" id="lightbox-rumaenien">
+        <button class="lightbox-prev">&#10094;</button>
+        <span class="close">&#10006;</span>
+        <img id="lightbox-img-rumaenien" src="" alt="">
+        <button class="lightbox-next">&#10095;</button>
+      </div>
+
+
+      <!-- POLEN -->
+      <section id="land">
+        <div class="land-text">
+          <h2>Polen</h2>
+          <h4>Bewertung: ★★☆☆☆ </h4>
+          <h4>Preis: ca. 10-20 Euro pro Nacht</h4>
+          <h4>Beschreibung</h4>
+          <p>
+            Polen ist ein vielseitiges Reiseziel, das mit seiner reichen Geschichte, beeindruckenden Architektur und erschwinglichen Lebenshaltungskosten begeistert. Das Land bietet eine faszinierende Mischung aus Tradition und Moderne, die in Städten wie Krakau und Warschau besonders gut spürbar ist. Krakau, die kulturelle Hauptstadt Polens, beeindruckt mit ihrer gut erhaltenen Altstadt, die zum UNESCO-Weltkulturerbe gehört. Der Hauptmarkt (Rynek Główny), einer der größten mittelalterlichen Marktplätze Europas, ist von prächtigen Gebäuden wie den Tuchhallen und der Marienkirche umgeben.
+          </p>
+        </div>
+        
+        <!-- Slideshow Polen -->
+        <button class="prev" data-slideshow="slideshow-polen">&#10094;</button>
+        <div class="slideshow" id="slideshow-polen">
+          <div class="slide">
+            <img src="./img/reiseziele/polen/polen1.jpg" alt="Polen 1">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/polen/polen2.jpg" alt="Polen 2">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/polen/polen3.jpg" alt="Polen 3">
+          </div>
+        </div>
+        <button class="next" data-slideshow="slideshow-polen">&#10095;</button>
+      </section>
+
+      <!-- Lightbox polen -->
+      <div class="lightbox-overlay" id="lightbox-polen">
+        <button class="lightbox-prev">&#10094;</button>
+        <span class="close">&#10006;</span>
+        <img id="lightbox-img-polen" src="" alt="">
+        <button class="lightbox-next">&#10095;</button>
+      </div>
+
+
+      <!-- KAMBODSCHA -->
+      <section id="land">
+        <div class="land-text">
+          <h2>Kambodscha</h2>
+          <h4>Bewertung: ★★★☆☆ </h4>
+          <h4>Preis: ca. 10-20 Euro pro Nacht</h4>
+          <h4>Beschreibung</h4>
+          <p>
+            Kambodscha ist ein faszinierendes Reiseziel, das mit seiner reichen Kultur, beeindruckenden Geschichte und erschwinglichen Lebenshaltungskosten begeistert. Im Mittelpunkt steht Angkor Wat, die weltberühmte Tempelanlage und eines der beeindruckendsten architektonischen Meisterwerke der Welt. Dieser historische Komplex, der zum UNESCO-Weltkulturerbe gehört, bietet Reisenden die Möglichkeit, tief in die Geschichte des Khmer-Reiches einzutauchen. Der Eintritt ist vergleichsweise günstig, und selbst geführte Touren sind oft preiswert.
+          </p>
+        </div>
+        
+        <!-- Slideshow Kambodscha -->
+        <button class="prev" data-slideshow="slideshow-kambodscha">&#10094;</button>
+        <div class="slideshow" id="slideshow-kambodscha">
+          <div class="slide">
+            <img src="./img/reiseziele/kambodscha/kambodscha1.jpg" alt="Kambodscha 1">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/kambodscha/kambodscha2.jpg" alt="Kambodscha 2">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/kambodscha/kambodscha3.jpg" alt="Kambodscha 3">
+          </div>
+        </div>
+        <button class="next" data-slideshow="slideshow-kambodscha">&#10095;</button>
+      </section>
+
+      <!-- Lightbox Kambodscha -->
+      <div class="lightbox-overlay" id="lightbox-kambodscha">
+        <button class="lightbox-prev">&#10094;</button>
+        <span class="close">&#10006;</span>
+        <img id="lightbox-img-kambodscha" src="" alt="">
+        <button class="lightbox-next">&#10095;</button>
+      </div>
+
+
+      <!-- MAROKKO -->
+      <section id="land">
+        <div class="land-text">
+          <h2>Marokko</h2>
+          <h4>Bewertung: ★★★☆☆ </h4>
+          <h4>Preis: ca. 15-30 Euro pro Nacht</h4>
+          <h4>Beschreibung</h4>
+          <p>
+            Marokko ist ein exotisches Reiseziel, das mit seiner faszinierenden Mischung aus Wüste, Kultur und traditionellem Charme begeistert. Das Land bietet eine beeindruckende Vielfalt an Landschaften – von den goldenen Dünen der Sahara bis hin zu den schneebedeckten Gipfeln des Atlasgebirges. Für Abenteuerlustige ist eine Wüstentour ein unvergessliches Erlebnis: Kamelritte, Übernachtungen in Beduinenzelten und spektakuläre Sonnenaufgänge über den Dünen machen den Aufenthalt zu etwas ganz Besonderem.
+          </p>
+        </div>
+        
+        <!-- Slideshow Marokko -->
+        <button class="prev" data-slideshow="slideshow-marokko">&#10094;</button>
+        <div class="slideshow" id="slideshow-marokko">
+          <div class="slide">
+            <img src="./img/reiseziele/marokko/marokko1.jpg" alt="Marokko 1">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/marokko/marokko2.jpg" alt="Marokko 2">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/marokko/marokko3.jpg" alt="Marokko 3">
+          </div>
+        </div>
+        <button class="next" data-slideshow="slideshow-marokko">&#10095;</button>
+      </section>
+
+      <!-- Lightbox Marokko -->
+      <div class="lightbox-overlay" id="lightbox-marokko">
+        <button class="lightbox-prev">&#10094;</button>
+        <span class="close">&#10006;</span>
+        <img id="lightbox-img-marokko" src="" alt="">
+        <button class="lightbox-next">&#10095;</button>
+      </div>
+    
+
+      <!-- LAOS -->
+      <section id="land">
+        <div class="land-text">
+          <h2>Laos</h2>
+          <h4>Bewertung: ★★★★☆ </h4>
+          <h4>Preis: ca. 10-20 Euro pro Nacht</h4>
+          <h4>Beschreibung</h4>
+          <p>
+            Laos ist ein idyllisches Reiseziel, das vor allem mit seiner entspannten Atmosphäre, beeindruckenden Natur und erschwinglichen Lebenshaltungskosten punktet. Das Land, oft als eines der ruhigsten in Südostasien bezeichnet, bietet eine willkommene Auszeit vom hektischen Alltag und ist perfekt für Reisende, die Erholung und authentische Erlebnisse suchen.
+            Die UNESCO-Weltkulturerbestadt Luang Prabang ist ein Highlight und bekannt für ihre gut erhaltene Kolonialarchitektur, prachtvollen Tempel und die spirituelle Präsenz buddhistischer Mönche. 
+          </p>
+        </div>
+        
+        <!-- Slideshow Laos -->
+        <button class="prev" data-slideshow="slideshow-laos">&#10094;</button>
+        <div class="slideshow" id="slideshow-laos">
+          <div class="slide">
+            <img src="./img/reiseziele/laos/laos1.jpg" alt="Laos 1">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/laos/laos2.jpg" alt="Laos 2">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/laos/laos3.jpg" alt="Laos 3">
+          </div>
+        </div>
+        <button class="next" data-slideshow="slideshow-laos">&#10095;</button>
+      </section>
+
+      <!-- Lightbox Laos -->
+      <div class="lightbox-overlay" id="lightbox-laos">
+        <button class="lightbox-prev">&#10094;</button>
+        <span class="close">&#10006;</span>
+        <img id="lightbox-img-laos" src="" alt="">
+        <button class="lightbox-next">&#10095;</button>
+      </div>
+
+
+      <!-- NEPAL -->
+      <section id="land">
+        <div class="land-text">
+          <h2>Nepal</h2>
+          <h4>Bewertung: ★★★☆☆ </h4>
+          <h4>Preis: ca. 15-25 Euro pro Nacht</h4>
+          <h4>Beschreibung</h4>
+          <p>
+            Nepal ist ein Paradies für Abenteurer und Naturliebhaber, das vor allem durch seine spektakulären Trekking-Möglichkeiten im Himalaya besticht. Mit seiner beeindruckenden Berglandschaft, kulturellen Vielfalt und erschwinglichen Preisen zieht das Land jährlich Tausende von Reisenden an, die unvergessliche Erlebnisse suchen.  
+            Abseits der Berge bietet Nepal kulturelle Highlights wie die historische Stadt Kathmandu mit ihren Tempeln, Stupas und lebendigen Märkten. Auch Orte wie Pokhara, Ausgangspunkt vieler Trekkingrouten, laden zum Verweilen und Entspannen ein.
+          </p>
+        </div>
+        
+        <!-- Slideshow Nepal -->
+        <button class="prev" data-slideshow="slideshow-nepal">&#10094;</button>
+        <div class="slideshow" id="slideshow-nepal">
+          <div class="slide">
+            <img src="./img/reiseziele/nepal/nepal1.jpg" alt="Nepal 1">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/nepal/nepal2.jpg" alt="Nepal 2">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/nepal/nepal3.jpg" alt="Nepal 3">
+          </div>
+        </div>
+        <button class="next" data-slideshow="slideshow-nepal">&#10095;</button>
+      </section>
+
+      <!-- Lightbox Nepal -->
+      <div class="lightbox-overlay" id="lightbox-nepal">
+        <button class="lightbox-prev">&#10094;</button>
+        <span class="close">&#10006;</span>
+        <img id="lightbox-img-nepal" src="" alt="">
+        <button class="lightbox-next">&#10095;</button>
+      </div>
+
+
+      <!-- PHILIPPINEN -->
+      <section id="land">
+        <div class="land-text">
+          <h2>Philippinen</h2>
+          <h4>Bewertung: ★★★★☆ </h4>
+          <h4>Preis: ca. 20-40 Euro pro Nacht</h4>
+          <h4>Beschreibung</h4>
+          <p>
+            Die Philippinen sind ein tropisches Paradies, das mit traumhaften Stränden, kristallklarem Wasser und einer unvergleichlichen Inselvielfalt begeistert. Das Archipel aus mehr als 7.000 Inseln bietet Reisenden eine beeindruckende Kulisse für Abenteuer, Entspannung und Naturerlebnisse – und das alles zu erschwinglichen Preisen, die sie zu einem beliebten Ziel in Südostasien machen.
+            Palawan, oft als eine der schönsten Inseln der Welt bezeichnet, lockt mit atemberaubenden Landschaften wie der malerischen Inselgruppe El Nido und dem unterirdischen Fluss von Puerto Princesa, der zum UNESCO-Weltnaturerbe gehört.
+          </p>
+        </div>
+        
+        <!-- Slideshow Philippinen -->
+        <button class="prev" data-slideshow="slideshow-philippinen">&#10094;</button>
+        <div class="slideshow" id="slideshow-philippinen">
+          <div class="slide">
+            <img src="./img/reiseziele/philippinen/philippinen1.jpg" alt="Philippinen 1">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/philippinen/philippinen2.jpg" alt="Philippinen 2">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/philippinen/philippinen3.jpg" alt="Philippinen 3">
+          </div>
+        </div>
+        <button class="next" data-slideshow="slideshow-philippinen">&#10095;</button>
+      </section>
+
+      <!-- Lightbox Philippinen -->
+      <div class="lightbox-overlay" id="lightbox-philippinen">
+        <button class="lightbox-prev">&#10094;</button>
+        <span class="close">&#10006;</span>
+        <img id="lightbox-img-philippinen" src="" alt="">
+        <button class="lightbox-next">&#10095;</button>
+      </div>
+
+      
+      <!-- GEORGIEN -->
+      <section id="land">
+        <div class="land-text">
+          <h2>Georgien</h2>
+          <h4>Bewertung: ★★☆☆☆ </h4>
+          <h4>Preis: ca. 15-30 Euro pro Nacht</h4>
+          <h4>Beschreibung</h4>
+          <p>           
+            Georgien ist ein faszinierendes Reiseziel, das mit seiner beeindruckenden Berglandschaft, köstlichen Küche und erschwinglichen Preisen überzeugt. Das kleine Land am Kaukasus bietet eine einzigartige Mischung aus natürlicher Schönheit, kulturellem Reichtum und herzlicher Gastfreundschaft, die Reisende aus aller Welt anzieht.
+            Die Hauptstadt Tiflis ist ein besonderer Höhepunkt. Sie beeindruckt mit ihrem charmanten Mix aus historischer Architektur, engen Kopfsteinpflastergassen und moderner Kreativität.
+            Die Altstadt, die Festung Narikala und die Schwefelbäder laden dazu ein, die Geschichte und Tradition der Region zu erleben.
+          </p>
+        </div>
+        
+        <!-- Slideshow Georgien -->
+        <button class="prev" data-slideshow="slideshow-georgien">&#10094;</button>
+        <div class="slideshow" id="slideshow-georgien">
+          <div class="slide">
+            <img src="./img/reiseziele/georgien/georgien1.jpg" alt="Georgien 1">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/georgien/georgien2.jpg" alt="Georgien 2">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/georgien/georgien3.jpg" alt="Georgien 3">
+          </div>
+        </div>
+        <button class="next" data-slideshow="slideshow-georgien">&#10095;</button>
+      </section>
+
+      <!-- Lightbox Georgien -->
+      <div class="lightbox-overlay" id="lightbox-georgien">
+        <button class="lightbox-prev">&#10094;</button>
+        <span class="close">&#10006;</span>
+        <img id="lightbox-img-georgien" src="" alt="">
+        <button class="lightbox-next">&#10095;</button>
+      </div>
+
+
+      <!-- MEXIKO -->
+      <section id="land">
+        <div class="land-text">
+          <h2>Mexiko</h2>
+          <h4>Bewertung: ★★★☆☆ </h4>
+          <h4>Preis: ca. 20-50 Euro pro Nacht</h4>
+          <h4>Beschreibung</h4>
+          <p>           
+            Mexiko ist ein faszinierendes Reiseziel, das Geschichte, Kultur und kulinarischen Genuss auf beeindruckende Weise vereint – und das zu erschwinglichen Preisen. Das Land bietet unzählige Möglichkeiten, atemberaubende archäologische Stätten zu entdecken, darunter die weltberühmte Maya-Ruine Chichén Itzá, die als eines der neuen sieben Weltwunder gilt. Diese gut erhaltene Pyramidenanlage auf der Halbinsel Yucatán ist nicht nur ein beeindruckendes Zeugnis der alten Maya-Kultur, sondern auch vergleichsweise günstig zu besuchen, insbesondere mit lokal organisierten Touren.
+          </p>
+        </div>
+        
+        <!-- Slideshow Mexiko -->
+        <button class="prev" data-slideshow="slideshow-mexiko">&#10094;</button>
+        <div class="slideshow" id="slideshow-mexiko">
+          <div class="slide">
+            <img src="./img/reiseziele/mexiko/mexiko1.jpg" alt="Mexiko 1">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/mexiko/mexiko2.jpg" alt="Mexiko 2">
+          </div>
+          <div class="slide">
+            <img src="./img/reiseziele/mexiko/mexiko3.jpg" alt="Mexiko 3">
+          </div>
+        </div>
+        <button class="next" data-slideshow="slideshow-mexiko">&#10095;</button>
+      </section>
+
+      <!-- Lightbox Mexiko -->
+      <div class="lightbox-overlay" id="lightbox-mexiko">
+        <button class="lightbox-prev">&#10094;</button>
+        <span class="close">&#10006;</span>
+        <img id="lightbox-img-mexiko" src="" alt="">
+        <button class="lightbox-next">&#10095;</button>
+      </div>
+
+    </div>
+
+    <section id="back-to-top">
+      <a href="#navbar">Zurück nach oben 🠕</a>
+    </section>
+
+  </main>
+
+  <footer> &copy; NextDestiny, 2025 - Alle Rechte vorbehalten  
+    <br>
+    <a href="./impressum.html">Impressum</a> 
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("mobile-menu").addEventListener("click", function() {
+        document.querySelector(".nav-list").classList.toggle("active");
+      })
+    });
+
+    document.querySelectorAll(".nav-list a").forEach(link => {
+      link.addEventListener("click", function() {
+        document.querySelector(".nav-list").classList.remove("active");
+      })
+    })
+
+    // Slideshow ---------------------------------------------------------------------------------------------------------------------------
+    document.addEventListener("DOMContentLoaded", function () {
+      const slideshows = document.querySelectorAll(".slideshow");
+
+      slideshows.forEach((slideshow) => {
+        const slides = slideshow.querySelectorAll(".slide");
+        let slideIndex = 0;
+
+        function showSlide(index) {
+          slides.forEach((slide, idx) => {
+            slide.style.display = idx === index ? "block" : "none";
+          });
+        }
+
+        showSlide(slideIndex);
+
+        const prevButton = document.querySelector(`button.prev[data-slideshow="${slideshow.id}"]`);
+        const nextButton = document.querySelector(`button.next[data-slideshow="${slideshow.id}"]`);
+
+        prevButton.addEventListener("click", () => {
+          slideIndex = (slideIndex - 1 + slides.length) % slides.length;
+          showSlide(slideIndex);
+        });
+
+        nextButton.addEventListener("click", () => {
+          slideIndex = (slideIndex + 1) % slides.length;
+          showSlide(slideIndex);
+        });
+      });
+    });
+
+
+    //Filter und Funktion von Lightbox -----------------------------------------------------------------------------------------------------------
+    document.addEventListener('DOMContentLoaded', function () {
+      const filterSelect = document.getElementById('filter');
+      const reisezieleContainer = document.querySelector('.reiseziele');
+      const reiseziele = Array.from(reisezieleContainer.querySelectorAll('section[id="land"]'));
+
+      // Funktion zum Sortieren
+      function sortReiseziele(reiseziele, criteria, ascending = true) {
+        return [...reiseziele].sort((a, b) => {
+          let valueA, valueB;
+
+          if (criteria === 'alphabet') {
+            valueA = a.querySelector('h2').textContent.toLowerCase();
+            valueB = b.querySelector('h2').textContent.toLowerCase();
+          } else if (criteria === 'price') {
+            valueA = parseFloat(a.querySelector('h4:nth-of-type(2)').textContent.match(/\d+/g).join(''));
+            valueB = parseFloat(b.querySelector('h4:nth-of-type(2)').textContent.match(/\d+/g).join(''));
+          } else if (criteria === 'rating') {
+            valueA = a.querySelector('h4').textContent.match(/★+/)[0].length;
+            valueB = b.querySelector('h4').textContent.match(/★+/)[0].length;
+          }
+
+          if (ascending) {
+            return valueA < valueB ? -1 : valueA > valueB ? 1 : 0;
+          } else {
+            return valueA > valueB ? -1 : valueA < valueB ? 1 : 0;
+          }
+        });
+      }
+
+      // Event-Listener für Filterung
+      filterSelect.addEventListener('change', function () {
+        const filterValue = this.value;
+        let sortedReiseziele;
+
+        if (filterValue === 'alphabet-asc') {
+          sortedReiseziele = sortReiseziele(reiseziele, 'alphabet', true);
+        } else if (filterValue === 'alphabet-desc') {
+          sortedReiseziele = sortReiseziele(reiseziele, 'alphabet', false);
+        } else if (filterValue === 'price-asc') {
+          sortedReiseziele = sortReiseziele(reiseziele, 'price', true);
+        } else if (filterValue === 'price-desc') {
+          sortedReiseziele = sortReiseziele(reiseziele, 'price', false);
+        } else if (filterValue === 'rating-asc') {
+          sortedReiseziele = sortReiseziele(reiseziele, 'rating', true);
+        } else if (filterValue === 'rating-desc') {
+          sortedReiseziele = sortReiseziele(reiseziele, 'rating', false);
+        }
+
+        // Sichtbarkeit basierend auf Sortierung setzen
+        sortedReiseziele.forEach(reiseziel => reisezieleContainer.appendChild(reiseziel));
+      });
+
+      // Lightbox bleibt unverändert und wird initialisiert
+      initializeLightbox();
+
+      function initializeLightbox() {
+        const slideshows = reisezieleContainer.querySelectorAll('.slideshow');
+
+        slideshows.forEach(slideshow => {
+          const slides = slideshow.querySelectorAll('.slide img');
+          const slideshowId = slideshow.id.split('-')[1];
+          const lightbox = document.getElementById(`lightbox-${slideshowId}`);
+          const lightboxImg = lightbox.querySelector('img');
+          const closeBtn = lightbox.querySelector('.close');
+          const prevBtn = lightbox.querySelector('.lightbox-prev');
+          const nextBtn = lightbox.querySelector('.lightbox-next');
+          let currentSlideIndex = 0;
+
+          // Bild in Lightbox anzeigen
+          slides.forEach((img, index) => {
+            img.addEventListener('click', function () {
+              currentSlideIndex = index;
+              lightboxImg.src = img.src;
+              lightbox.style.display = 'block';
+            });
+          });
+
+          // Navigation in der Lightbox
+          const showSlide = (index) => {
+            currentSlideIndex = (index + slides.length) % slides.length;
+            lightboxImg.src = slides[currentSlideIndex].src;
+          };
+
+          prevBtn.onclick = () => showSlide(currentSlideIndex - 1);
+          nextBtn.onclick = () => showSlide(currentSlideIndex + 1);
+          closeBtn.onclick = () => (lightbox.style.display = 'none');
+          lightbox.onclick = (event) => {
+            if (event.target === lightbox) lightbox.style.display = 'none';
+          };
+        });
+      }
+    });
+
+
+    //Standard Einstellung bei Filter zurücksetzen -------------------------------------------------------------------------------------------------------------
+    document.getElementById('filter').addEventListener('change', function () {
+      const selectedValue = this.value;
+
+      if (selectedValue === 'default') {
+        // Lade die Originalseite neu
+        window.location.href = './reiseziele.html';
+      } else {
+        // Anderen Code für Sortierung hier
+        console.log(`Sortiere nach: ${selectedValue}`);
+      }
+    });
+
+  </script>
+
+</body>
+</html>

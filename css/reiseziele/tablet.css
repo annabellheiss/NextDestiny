@@ -1,0 +1,226 @@
+@media (max-width: 992px){
+
+    .menu-toggle{
+        display: flex;
+        z-index: 10;
+    }
+
+    .nav-list{
+        display: none; /*Menü vom Desktop ausblenden*/
+        flex-direction: column;
+        background-color: #03A696;
+        position: absolute;
+        top: 49px;
+        right: 0;
+        left: 0;
+        padding: 20px;
+        z-index: 9;
+    }
+
+    .nav-list .name{
+        display: none;
+    }
+
+    .nav-list li{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .nav-list li:last-child{
+        border: none;
+    }
+
+    .nav-list.active{
+        display: block;
+    }
+
+    .header-image p {
+        width: 80%;
+    }
+
+    /* Content ------------------------------------------------------------------------------------------*/
+.reiseziele{
+    margin: 30px;
+    text-align: justify;
+}
+
+.reiseziele p {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.reiseziele h4{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#land{
+    display: block;
+    padding: 20px;
+    margin-bottom: 50px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#land .land-text{
+    margin-right: 20px;
+    width: 100%;
+}
+
+#bulgarien #land .land-text{
+    margin-right: 20px;
+    width: 100%;
+}
+
+#kenia #land .land-text{
+    margin-right: 20px;
+    width: 100%;
+}
+
+#sri-lanka #land .land-text{
+    margin-right: 20px;
+    width: 100%;
+}
+
+
+/* Slideshow ---------------------------------------------------------------------------------------------------*/
+.slideshow {
+    display: flex; 
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    align-items: center; 
+}
+
+.slide {
+    animation: fade 3s ease;
+    flex-shrink: 0;
+    width: 100%; 
+}
+
+.slide img {
+    width: 100%;
+    margin-left: 100px;
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* Pfeile */
+.prev, .next {
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Position der Pfeile auf großen Bildschirmen */
+.prev {
+    margin-top: 90px;
+    left: calc(50% - 270px); /* Dynamischer Abstand zum Bild */
+}
+
+.next {
+    margin-top: -147px;
+    right: calc(50% - 200px); /* Dynamischer Abstand zum Bild */
+}
+
+
+/* Responsivität für kleinere Bildschirme */
+@media (max-width: 768px) {
+    .prev {
+        left: calc(50% - 330px); /* Pfeil verschiebt sich immer noch relativ zum Bild */
+        margin-top: 150px;
+    }
+
+    .next {
+        right: calc(50% - 290px); /* Pfeil verschiebt sich immer noch relativ zum Bild */
+        margin-top: -215px;
+    }
+
+    .slide img {
+        margin-left: 17px; /* Anpassung des Bildabstands */
+        max-width: 90%; /* Bild passt sich der Fenstergröße an */
+    }
+}
+
+@media (max-width: 700px) {
+    .prev {
+        display: none;
+    }
+
+    .next {
+        display: none;
+    }
+
+    .slide img {
+        max-width: 100%; /* Bild passt sich der Fenstergröße an */
+        margin-left: 0; /* Kein zusätzlicher Abstand */
+        cursor: pointer;
+    }
+}
+
+
+
+/* Lightbox ------------------------------------------------------------------------------------------*/
+.lightbox-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1001;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-overlay img {
+    max-width: 80%; 
+    max-height: 80%;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fade 0.5s ease;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
+}
+
+#back-to-top{
+    text-align: end;
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+
+#back-to-top{
+    text-align: end;
+    margin-right: 30px;
+    margin-top: 20px;
+
+}
+
+#back-to-top a{
+    font-size: 1.0em;
+}
+
+
+
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/impressum//style.css">
+  <link rel="stylesheet" href="./css/impressum//tablet.css">
+  <link rel="stylesheet" href="./css/impressum//mobile.css">
+
+  <title>Impressum</title>
+</head>
+<body>
+  <header>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+        <ul class="nav-list">
+          <li><a href="index.html"><img src="./img/logo.png" alt=""></a></li>
+          <li class="name"><a href="./index.html">NextDestiny</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./reiseziele.html">Reiseziele</a></li>
+          <li><a href="./reisetipps.html">Reisetipps</a></li>
+        </ul>
+    </nav>
+
+    
+    <!-- Banner -->
+    <div class="header-image">
+      <div class="background-img"></div>
+      <div class="text">
+        <h1>Impressum</h1>
+        <p>
+          Hier findest du alle wichtigen rechtlichen Informationen, die du brauchst. Egal, ob es um Nutzungsrechte, Datenschutz oder andere Hinweise geht – wir haben alles übersichtlich und verständlich für dich zusammengestellt, damit du dich jederzeit gut informiert und sicher fühlen kannst.
+        </p>
+      </div>
+    </div>
+
+  </header>
+
+
+  <main>
+    <section id="info">
+      <h2>Rechtliche Information</h2>
+      <p>Bitte beachten Sie die folgenden rechtlichen Hinweise für die Nutzung von NextDestiny:
+        <ul>
+          <li>
+            Diese Website kann Hinweise auf Eigentumsrechte und urheberrechtlich geschützte Inhalte enthalten, darunter insbesondere Logos, Bilder, Tondateien und Videos. Bitte respektieren Sie diese Rechte.
+          </li>
+          <li>
+            Das Herunterladen, Drucken und Speichern von Inhalten ist ausschließlich für den privaten Gebrauch gestattet. Jede darüber hinausgehende Nutzung erfordert die ausdrückliche Zustimmung von NextDestiny.
+          </li>
+          <li>
+            NextDestiny übernimmt keine Haftung für Datenverlust oder technische Probleme, die beim Betrachten oder Herunterladen von Inhalten entstehen können.
+          </li>
+          <li>
+            Für den Inhalt externer Webseiten, die über Links auf NextDestiny erreichbar sind, übernimmt NextDestiny keine Verantwortung.
+          </li>
+        </ul>
+        Vielen Dank für Ihr Verständnis und viel Freude beim Erkunden günstiger Reiseziele!
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="kontakt">
+      <h2>Kontaktinformation</h2>
+      <p>NextDestiny</p>
+      <p>Werk-VI-Straße 46 <br> 8605 Kapfenberg</p>
+      <p>
+        laetitia.loesch@edu.fh-joanneum.at
+        <br>
+        annabell.heiss@edu.fh-joanneum.at
+      </p>
+    </section>
+
+    <hr>
+
+    <section id="mediengesetz">
+      <h2>Informationen gemäß Mediengesetz</h2>
+      <h4>Unternehmensgegenstand</h4>
+      <p>
+        NextDestiny bietet inspirierende Reiseideen und praktische Informationen zu günstigen Reisezielen weltweit. Ziel ist es, Reisenden eine einfache Planung und individuelle Gestaltung von Budgetreisen zu ermöglichen. Darüber hinaus finden sich hilfreiche Tipps, um Reisen preisbewusst und nachhaltig zu gestalten.
+      </p>
+
+      <h4>Blattlinie</h4>
+      <p>
+        Diese Website dient als digitaler Reiseguide und bietet umfassende Informationen zu günstigen Reisezielen, Spartipps sowie inspirierende Reiseberichte. Sie richtet sich an Reisebegeisterte, die ihren nächsten Trip planen möchten, und unterstützt sie mit aktuellen Infos und hilfreichen Tools.
+      </p>
+
+      <h4>Datenschutz</h4>
+      <p>
+        NextDestiny legt großen Wert auf den Schutz Ihrer personenbezogenen Daten. Unsere Datenschutzerklärung informiert Sie ausführlich über die Art, den Umfang und die Zwecke der Erhebung und Verwendung Ihrer Daten, die im Zusammenhang mit Ihrem Besuch und der Nutzung unserer Website stehen.
+      </p>
+  
+      <h4>Sonstige Hinweise</h4>
+      <p>
+        Aus Gründen der besseren Lesbarkeit verwenden wir meist geschlechtsneutrale Bezeichnungen oder verzichten auf wiederholte Schreibweisen für alle Geschlechter. Alle Formulierungen beziehen sich gleichermaßen auf Personen aller Geschlechteridentitäten.
+      </p>
+
+    </section>
+
+
+    <section id="back-to-top">
+      <a href="#navbar">Zurück nach oben 🠕</a>
+    </section>
+
+  </main>
+
+  <footer> &copy; NextDestiny, 2025 - Alle Rechte vorbehalten  
+    <br>
+    <a href="./impressum.html">Impressum</a> </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("mobile-menu").addEventListener("click", function() {
+        document.querySelector(".nav-list").classList.toggle("active");
+      })
+    });
+
+    document.querySelectorAll(".nav-list a").forEach(link => {
+      link.addEventListener("click", function() {
+        document.querySelector(".nav-list").classList.remove("active");
+      })
+    })
+
+  </script>
+
+</body>
+</html>
