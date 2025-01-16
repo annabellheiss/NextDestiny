@@ -2,6 +2,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +10,7 @@ body {
     line-height: 1.5;
 }
 
-/* Navigation */
+/* Navigation ---------------------------------------------------------------------------------------*/
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -67,7 +68,7 @@ body {
     margin: 3px 0;
 }
 
-/* Banner */
+/* Header-Banner ---------------------------------------------------------------------------------------*/
 .header-image {
     position: relative;
     width: 100%;
@@ -75,11 +76,13 @@ body {
     display: flex;
     align-items: center; /* Vertikal zentrieren */
 }
+
 .header-image p {
     width: 50%;
     font-size: 1.2em;
     margin: 10px 0;
 }
+
 .background-img {
     background-image: url(../../img/headerbild-reisetipps.jpg);
     filter: brightness(0.4);
@@ -91,25 +94,28 @@ body {
     width: 100%;
     z-index: 1;
 }
-.text{
-    position: relative;
-    color: white;
-    z-index: 2;
-    padding-left: 100px;
-}
-.text h1{
-    margin: 0;
-    padding: 0;
-    font-size: 50px;
-}
-.text{
+
+.text {
     position: relative;
     color: white;
     z-index: 2;
     padding-left: 100px;
 }
 
-.header-image button{
+.text h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+
+.text {
+    position: relative;
+    color: white;
+    z-index: 2;
+    padding-left: 100px;
+}
+
+.header-image button {
     margin-top: 20px;
     border: 1px solid #04BF9D;
     border-radius: 20px;
@@ -118,18 +124,17 @@ body {
     cursor: pointer;
 }
 
-.header-image button:hover{
+.header-image button:hover {
     background-color: #038C7F;
     border-color: #038C7F;
 }
 
-.header-image button a{
+.header-image button a {
     text-decoration: none;
     color: white;
     font-family: "Maven Pro", serif;
     font-weight: bold;
     text-transform: uppercase;
-
 }
 
 /* Content ------------------------------------------------------------------------------------------*/
@@ -138,78 +143,71 @@ body {
     align-items: center;
 }
 
-.tipp-v1 .container{
+.tipp-v1 .container {
     display: flex;
     padding: 50px 300px 70px 300px;
     background-color: rgb(4, 191, 157,0.2);
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); /*rechts unten abschrägen*/
 }
 
-.tipp-v1 .container .number{
+.tipp-v1 .container .number {
     display: flex;
     align-items: center;
     color: #038C7F;
 }
 
-.tipp-v1 .container .tipp-text{
+.tipp-v1 .container .tipp-text {
     font-size: 1.2em;
     margin-left: 25px;
-
 }
 
-.tipp-v1 .container h1{
+.tipp-v1 .container h1 {
     font-size: 100px;
     margin: 0;
-
 }
-.tipp-v1 .container h2{
+
+.tipp-v1 .container h2 {
     margin-bottom: 0;
-
 }
 
-.tipp-v1 .container p{
+.tipp-v1 .container p {
     margin-top: 10px;
-
 }
-
 
 .tipp-v2 {
     justify-content: center;
     align-items: center;
 }
 
-.tipp-v2 .container{
+.tipp-v2 .container {
     display: flex;
     padding: 50px 300px 70px 300px;
     background-color: white;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%); /*links unten abschrägen*/
 }
 
-.tipp-v2 .container .number{
+.tipp-v2 .container .number {
     display: flex;
     align-items: center;
     color: #038C7F;
 }
 
-.tipp-v2 .container .tipp-text{
+.tipp-v2 .container .tipp-text {
     font-size: 1.2em;
     margin-left: 25px;
-
 }
 
-.tipp-v2 .container h1{
+.tipp-v2 .container h1 {
     font-size: 100px;
     margin: 0;
-
 }
-.tipp-v2 .container h2{
+
+.tipp-v2 .container h2 {
     margin-bottom: 0;
-
 }
 
-.tipp-v2 .container p{
+.tipp-v2 .container p {
     margin-top: 10px;
-
 }
 
 .tipp-v3 {
@@ -217,49 +215,46 @@ body {
     align-items: center;
 }
 
-.tipp-v3 .container{
+.tipp-v3 .container {
     display: flex;
     padding: 110px 300px 100px 300px;
     background-color: rgb(4, 191, 157,0.2);
     clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%); /*links oben abschrägen*/
-
-
 }
 
-.tipp-v3 .container .number{
+.tipp-v3 .container .number {
     display: flex;
     align-items: center;
     color: #038C7F;
 }
 
-.tipp-v3 .container .tipp-text{
+.tipp-v3 .container .tipp-text {
     font-size: 1.2em;
     margin-left: 25px;
-
 }
 
-.tipp-v3 .container h1{
+.tipp-v3 .container h1 {
     font-size: 100px;
     margin: 0;
 
 }
-.tipp-v3 .container h2{
+
+.tipp-v3 .container h2 {
     margin-bottom: 0;
-
 }
 
-.tipp-v3 .container p{
+.tipp-v3 .container p {
     margin-top: 10px;
-
 }
 
-#back-to-top{
+/* Back to top Button ---------------------------------------------------------------------------------------*/
+#back-to-top {
     text-align: end;
     margin-right: 50px;
     margin-top: 20px;
-
 }
-#back-to-top a{
+
+#back-to-top a {
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -269,16 +264,16 @@ body {
     padding: 10px 15px;
     background-color: #04BF9D ;
     cursor: pointer;
-
 }
 
-#back-to-top a:hover{
+#back-to-top a:hover {
     text-decoration-line: underline;
     background-color: #038C7F;
     border-color: #038C7F;
 }
 
-footer{
+/* Footer ---------------------------------------------------------------------------------------*/
+footer {
     padding: 15px 0;
     margin-top: 50px;
     background-color:  #03A696;

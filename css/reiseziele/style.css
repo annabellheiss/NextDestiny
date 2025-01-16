@@ -211,7 +211,7 @@ body {
     cursor: pointer;
     font-size: 30px;
     font-weight: bold;
-    background-color: #FFF;
+    background-color: transparent;
 }
 
 .next {
@@ -224,9 +224,10 @@ body {
     cursor: pointer;
     font-size: 30px;
     font-weight: bold;
-    background-color: #FFF;
+    background-color: transparent;
 }
 
+/*Bewegung der Pfeile bei Skalierung des Fensters*/
 @media (max-width:1410px){
     .prev {
         margin-top: 140px;
@@ -273,6 +274,7 @@ body {
     z-index: 1001;
     justify-content: center;
     align-items: center;
+    opacity: 1;
 }
 
 .lightbox-overlay img {
@@ -290,10 +292,13 @@ body {
     position: absolute;
     top: 20px;
     right: 20px;
-    font-size: 36px;
-    color: white;
+    color: #FFF !important;
+    margin-right: 20px;
+    font-style: bold;
+    font-size: 45px;
     cursor: pointer;
 }
+
 
 .lightbox-prev {
     margin-left: 260px;
@@ -325,33 +330,104 @@ body {
 }
 
 .lightbox-prev {
-    left: calc(50% - 750px); /* Dynamischer Abstand zum Bild */
+    left: calc(50% - 830px); /* Dynamischer Abstand zum Bild */
 }
 
 .lightbox-next {
-    right: calc(50% - 500px); /* Dynamischer Abstand zum Bild */
+    right: calc(50% - 570px); 
+}
+
+/*Responsive Lightbox Buttons*/
+@media (max-width: 1950px) {
+    .lightbox-prev {
+        left: calc(50% - 930px); 
+    }
+    
+    .lightbox-next {
+        right: calc(50% - 670px); 
+    }
+}
+
+@media (max-width: 1500px) {
+    .lightbox-prev {
+        left: calc(50% - 930px); 
+    }
+    
+    .lightbox-next {
+        right: calc(50% - 650px);
+    }
+
+}
+
+@media (max-width: 1400px) {
+    .lightbox-prev {
+        left: calc(50% - 870px);
+    }
+    
+    .lightbox-next {
+        right: calc(50% - 600px);
+    }
+
+}
+
+@media (max-width: 1300px) {
+    .lightbox-prev {
+        left: calc(50% - 840px);
+    }
+    
+    .lightbox-next {
+        right: calc(50% - 570px);
+    }
+}
+
+@media (max-width: 1250px) {
+    .lightbox-prev {
+        left: calc(50% - 810px);
+    }
+    
+    .lightbox-next {
+        right: calc(50% - 550px);
+    }
+}
+
+@media (max-width: 1225px) {
+    .lightbox-prev {
+        left: calc(50% - 800px);
+    }
+    
+    .lightbox-next {
+        right: calc(50% - 550px);
+    }
 }
 
 @media (max-width: 1200px) {
     .lightbox-prev {
-        left: calc(50% - 750px); /* Dynamischer Abstand zum Bild */
+        left: calc(50% - 800px);
     }
     
     .lightbox-next {
-        right: calc(50% - 500px); /* Dynamischer Abstand zum Bild */
+        right: calc(50% - 550px);
     }
+}
 
+@media (max-width: 1150px) {
+    .lightbox-prev {
+        left: calc(50% - 760px);
+    }
+    
+    .lightbox-next {
+        right: calc(50% - 500px);
+    }
 }
 
 @media (max-width: 1100px) {
     .lightbox-prev {
-        left: calc(50% - 750px); /* Dynamischer Abstand zum Bild */
+        left: calc(50% - 750px);
     }
     
     .lightbox-next {
-        right: calc(50% - 470px); /* Dynamischer Abstand zum Bild */
+        right: calc(50% - 470px);
     }
-
 }
 
 @media (max-width: 1000px) {
@@ -360,121 +436,10 @@ body {
     }
     
     .lightbox-next {
-        right: calc(50% - 470px); /* Dynamischer Abstand zum Bild */
+        right: calc(50% - 450px);
     }
-
 }
 
-@media (max-width: 950px) {
-    .lightbox-prev {
-        left: -250px;
-    }
-    
-    .lightbox-next {
-        right: calc(50% - 430px); /* Dynamischer Abstand zum Bild */
-    }
-
-}
-
-@media (max-width: 900px) {
-    .lightbox-prev {
-        left: -250px;
-    }
-    
-    .lightbox-next {
-        right: calc(50% - 390px); /* Dynamischer Abstand zum Bild */
-    }
-
-}
-
-@media (max-width: 850px) {
-    .lightbox-prev {
-        left: -250px;
-    }
-    
-    .lightbox-next {
-        right: calc(50% - 370px); /* Dynamischer Abstand zum Bild */
-    }
-
-}
-
-@media (max-width: 800px) {
-    .lightbox-prev {
-        left: -250px;
-    }
-    
-    .lightbox-next {
-        right: calc(50% - 350px); /* Dynamischer Abstand zum Bild */
-    }
-
-}
-
-@media (max-width: 750px) {
-    .lightbox-prev {
-        left: -250px;
-    }
-    
-    .lightbox-next {
-        right: calc(50% - 320px); /* Dynamischer Abstand zum Bild */
-    }
-
-}
-
-
-@media (max-width: 700px) {
-    .lightbox-prev {
-        left: -250px;
-    }
-    
-    .lightbox-next {
-        right: calc(50% - 315px); /* Dynamischer Abstand zum Bild */
-    }
-
-}
-
-@media (max-width: 650px) {
-    .lightbox-prev {
-        left: -250px;
-    }
-    
-    .lightbox-next {
-        right: calc(50% - 285px); /* Dynamischer Abstand zum Bild */
-    }
-
-}
-
-@media (max-width: 600px) {
-    .lightbox-prev {
-        left: -250px;
-    }
-    
-    .lightbox-next {
-        right: calc(50% - 265px); /* Dynamischer Abstand zum Bild */
-    }
-
-}
-
-@media (max-width: 550px) {
-    .lightbox-prev {
-        left: -250px;
-    }
-    
-    .lightbox-next {
-        right: calc(50% - 245px); /* Dynamischer Abstand zum Bild */
-    }
-
-}
-
-@media (max-width: 500px) {
-    .lightbox-prev {
-        left: -250px;
-    }
-    
-    .lightbox-next {
-        right: calc(50% - 225px); /* Dynamischer Abstand zum Bild */
-    }
-
-}
 
 /* Filter ------------------------------------------------------------------------------------------------*/
 .filter-container{
@@ -483,6 +448,7 @@ body {
 
 .filter-container label{
     font-size: 16px;
+    color: #000 !important;
     font-family: "Maven Pro", serif;
     font-weight: bold;
 }

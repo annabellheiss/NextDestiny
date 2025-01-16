@@ -1,11 +1,12 @@
 @media (max-width: 992px){
 
-    .menu-toggle{
+    /* Navigation  ---------------------------------------------------------------------------------------*/
+    .menu-toggle {
         display: flex;
         z-index: 10;
     }
 
-    .nav-list{
+    .nav-list {
         display: none; /*Menü vom Desktop ausblenden*/
         flex-direction: column;
         background-color: #03A696;
@@ -17,184 +18,42 @@
         z-index: 9;
     }
 
-    .nav-list .name{
+    .nav-list .name {
         display: none;
     }
 
-    .nav-list li{
+    .nav-list li {
         text-align: center;
         margin-bottom: 10px;
     }
 
-    .nav-list li:last-child{
+    .nav-list li:last-child {
         border: none;
     }
 
-    .nav-list.active{
+    .nav-list.active {
         display: block;
     }
 
+    /* Header-Banner ---------------------------------------------------------------------------------------*/
     .header-image p {
         width: 80%;
     }
 
-    /* Content ------------------------------------------------------------------------------------------*/
-    #about-1 {
-        margin: 20px 100px;
-    }
-
-    #about-1 .about-text p {
-        margin: 10px 0;
-    }
-    #about-1 .about-text h2 {
-        margin: 0;
-    }
-
-    #about-1 .about-img{
-        padding: 10px;
-    }
-
-    main hr{
-        margin: 50px 100px;
-    }
-
-    #about-2 {
-        margin: 20px;
-    }
-
-    #about-2 .about-text{
-        width: 60%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center; /* Vertikal zentrieren des Textes */
-        font-size: 1.1em;
-        padding: 20px 0;
-
-    }
-    #about-2 .about-text p {
-        margin: 10px 30px 10px 0;
-    }
-
-    #about-2 .about-img{
-        width: 30%;
-        display: flex;
-        align-items: center; /* Zentriert das Bild vertikal */
-        justify-content: center;
-        padding: 10px;
-    }
-
-    #about-2 img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    
-    #expectation{
-        display: flex;
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    
-    #expectation .expectation-text{
-        text-align: left;
-    }
-    
-    #expectation img{
-        width: 40%;
-        height: 80%;
-        margin-top: 110px;
-        margin-right: 20px;
-    }
-
-    /* Banner */
-    .tipps-image {
-        height: 400px;
-    }
-    .tipps-image p {
-        padding: 0 100px;
-    }
-
-    .tipps-text h1{
-        font-size: 40px;
-    }
-
-    #top-destinations h2{
-        text-align: center;
-        color: #038C7F;
-        font-size: 30px;
-        margin-bottom: 30px;
-    }
-    #top-destinations .destinations {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 50px;
-        margin: 0 50px;
-    }
-
-    #top-destinations #column1{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row: 1;
-    }
-    #top-destinations #column2{
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row: 1;
-    }
-
-    #top-destinations #column3{
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row: 2;
-    }
-    #top-destinations .destinations img{
-        width: 100%;
-        height: auto;
-        border-radius: 20px;
-        box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-    }
-    #top-destinations .destinations .column{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between; /*Link auf gleicher Höhe*/
-
-    }
-    #top-destinations .destinations .column h3{
-        margin-top: 10px;
-        margin-bottom: 0;
-    }
-
-    #top-destinations .destinations .column p{
-        margin-top: 5px;
-        margin-bottom: 20px;
-    }
-    #top-destinations .destinations .column a{
-        color: #038C7F ;
-        text-decoration: none;
-
-    }
-
-    #top-destinations .destinations .column a:hover{
-        color:#04BF9D ;
-        text-decoration-line: underline;
-    }
-
-    #back-to-top{
+    /* Back to Top Button ---------------------------------------------------------------------------------------*/
+    #back-to-top {
         text-align: end;
         margin-right: 50px;
         margin-top: 20px;
-
     }
 
-    #back-to-top{
+    #back-to-top {
         text-align: end;
         margin-right: 30px;
         margin-top: 20px;
-
     }
 
-    #back-to-top a{
+    #back-to-top a {
         font-size: 1.0em;
     }
     

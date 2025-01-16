@@ -3,16 +3,18 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="./img/favicon.png"> <!-- Favicon -->
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/desktop_1000px.css">
   <link rel="stylesheet" href="./css/tablet.css">
   <link rel="stylesheet" href="./css/mobile.css">
-
 
 
   <title>NextDestiny</title>
 </head>
 <body>
   <header>
+
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
       <div class="menu-toggle" id="mobile-menu">
@@ -29,7 +31,8 @@
         </ul>
     </nav>
 
-    <!-- Banner -->
+
+    <!-- Header-Banner -->
     <div class="header-image">
       <div class="background-img"></div>
       <div class="text">
@@ -41,9 +44,12 @@
 
   </header>
 
+
+  <!-- About -->
   <main>
     <section id="about-1">
         <div class="about-container">
+
           <div class="about-text">
             <h2>Dein (Reise)Ziel ist unser Ziel!</h2>
             <p>
@@ -53,20 +59,26 @@
             <p>
               Von paradiesischen Stränden über pulsierende Metropolen bis hin zu atemberaubenden Landschaften – wir zeigen dir, wo du all das erleben kannst, ohne ein Vermögen auszugeben. Dabei legen wir besonderen Wert darauf, dir Insidertipps und versteckte Perlen zu bieten, die nicht nur günstiger, sondern oft auch authentischer sind als die typischen Touristen-Hotspots.
             </p>
+
           </div>
           <div class="about-img">
             <img src="./img/about-1.jpg" alt="Blick auf blaue Liegen und orangene Sonnenschirme, die im warmen Sand an einem Strand aufgestellt sind">
           </div>
+
         </div>
     </section>
 
+
     <hr>
+
 
     <section id="about-2">
       <div class="about-container">
+
         <div class="about-img">
           <img src="./img/about-img.png" alt="Illustration eines Reisekoffers">
         </div>
+
         <div class="about-text">
           <h2>Qualität garantiert.</h2>
           <p>
@@ -77,9 +89,12 @@
             Dein Traumziel ist näher, als du denkst – und wir helfen dir, es zu erreichen. Pack deine Sachen, schnapp dir deine Freunde oder mach dich allein auf den Weg: Die Welt wartet darauf, von dir entdeckt zu werden. Und wir stehen an deiner Seite, um sicherzustellen, dass dein Abenteuer großartig wird – egal, wie klein dein Budget ist!
           </p>
         </div>
+
       </div>
     </section>
 
+
+    <!-- Tipps Banner -->
     <section id="tipps">
       <!-- Banner 2 -->
       <div class="tipps-image">
@@ -92,6 +107,8 @@
       </div>
     </section>
 
+
+    <!-- Expectation Text -->
     <section id="expectation">
       <img src="./img/expectation-img.png" alt="Illustration einer Landkarte, auf der ein paar Punkte makiert sind">
       <div class="expectation-text">
@@ -107,26 +124,27 @@
     </section>
 
 
+    <!-- Top Destinations -->
     <section id="top-destinations">
       <h2>Beliebte Reiseziele</h2>
 
       <div class="destinations">
         <div id="column1" class="column">
-          <img src="./img/destination-1.jpg" alt="Ein majestätischer Baum vor der atemberaubenden Kulisse eines kenianischen Sonnenuntergangs.">
+          <a href="./reiseziele.html#kenia"><img src="./img/destination-1.jpg" alt="Ein majestätischer Baum vor der atemberaubenden Kulisse eines kenianischen Sonnenuntergangs."></a>
           <h3>Kenia</h3>
           <p>Kenia ist ein atemberaubendes Reiseziel, das für seine beeindruckenden Naturerlebnisse und die Möglichkeit, Wildtiere in ihrem natürlichen Lebensraum zu beobachten, bekannt ist. </p>
           <a href="./reiseziele.html#kenia"> > Mehr erfahren</a>
         </div>
 
         <div id="column2" class="column">
-          <img src="./img/destination-2.jpg" alt="Ein majestätischer Baum vor der atemberaubenden Kulisse eines kenianischen Sonnenuntergangs.">
+          <a href="./reiseziele.html#sri-lanka"><img src="./img/destination-2.jpg" alt="Ein majestätischer Baum vor der atemberaubenden Kulisse eines kenianischen Sonnenuntergangs."></a>
           <h3>Sri Lanka</h3>
           <p>Sri Lanka ist ein bezauberndes Reiseziel, das mit seiner atemberaubenden Natur, faszinierenden Geschichte und erschwinglichen Lebenshaltungskosten überzeugt. </p>
           <a href="./reiseziele.html#sri-lanka"> > Mehr erfahren</a>
         </div>
 
         <div id="column3" class="column">
-          <img src="./img/destination-3.jpg" alt="Ein majestätischer Baum vor der atemberaubenden Kulisse eines kenianischen Sonnenuntergangs.">
+          <a href="./reiseziele.html#bulgarien"><img src="./img/destination-3.jpg" alt="Ein majestätischer Baum vor der atemberaubenden Kulisse eines kenianischen Sonnenuntergangs."></a>
           <h3>Bulgarien</h3>
           <p>Die Schwarzmeerküste Bulgariens ist ein ideales Reiseziel für alle, die schöne Strände und erschwingliche Verpflegungsmöglichkeiten schätzen.</p>
           <a href="./reiseziele.html#bulgarien"> > Mehr erfahren</a>
@@ -135,17 +153,23 @@
 
     </section>
 
+
+    <!-- Back to Top Button -->
     <section id="back-to-top">
-      <a href="#navbar">Zurück nach oben 🠕</a>
+      <a href="#navbar">Zurück nach oben &#9650;</a>
     </section>
 
   </main>
 
+
+  <!-- Footer -->
   <footer> &copy; NextDestiny, 2025 - Alle Rechte vorbehalten  
     <br>
     <a href="./impressum.html">Impressum</a> 
   </footer>
 
+
+  <!-- Javascript Nav -->
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       document.getElementById("mobile-menu").addEventListener("click", function() {
@@ -159,8 +183,6 @@
       })
     })
   </script>
-
-
 
 </body>
 </html>

@@ -35,7 +35,7 @@
         display: block;
     }
 
-    /* Header-Banner ---------------------------------------------------------------------------------------*/
+    /* Header Banner ---------------------------------------------------------------------------------------*/
     .header-image {
         position: relative;
         width: 100%;
@@ -51,19 +51,7 @@
         line-height: 1.4;
     }
 
-    .background-img {
-        background-image: url(../../img/headerbild-reisetipps.jpg);
-        filter: brightness(0.4);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        z-index: 1;
-    }
-
-    .text {
+    .header-image .text {
         position: relative;
         color: white;
         z-index: 2;
@@ -71,7 +59,7 @@
         text-align: center;
     }
 
-    .text h1 {
+    .header-image.text h1 {
         margin: 0;
         padding: 0;
         font-size: 55px;
@@ -98,49 +86,6 @@
         font-weight: bold;
         text-transform: uppercase;
         font-size: 1.1em;
-    }
-
-    /* Content ------------------------------------------------------------------------------------------*/
-    .tipp-v1 .container {
-        padding: 30px 50px 70px 30px;
-    }
-
-    .tipp-v1 .container .tipp-text {
-        font-size: 17px;
-        margin-left: 25px;
-    }
-
-    .tipp-v1 .container h1 {
-        font-size: 80px;
-        margin: 0;
-    }
-
-    .tipp-v2 .container {
-        padding: 0 50px 50px 50px;
-    }
-
-    .tipp-v2 .container .tipp-text {
-        font-size: 17px;
-        margin-left: 25px;
-    }
-
-    .tipp-v2 .container h1 {
-        font-size: 80px;
-        margin: 0;
-    }
-
-    .tipp-v3 .container {
-        padding: 110px 50px 110px 50px;
-    }
-
-    .tipp-v3 .container .tipp-text {
-        font-size: 17px;
-        margin-left: 25px;
-    }
-
-    .tipp-v3 .container h1 {
-        font-size: 80px;
-        margin: 0;
     }
 
     /* Back to top Button ---------------------------------------------------------------------------------------*/

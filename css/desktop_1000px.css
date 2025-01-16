@@ -1,0 +1,64 @@
+@media (max-width: 1330px) {
+
+    /* Header-Banner ---------------------------------------------------------------------------------------*/
+    .header-image p {
+        width: 70%;
+    }
+
+    /* About 1 ---------------------------------------------------------------------------------------*/
+    #about-1 {
+        margin: 20px 80px;
+    }
+
+    main hr {
+        margin: 50px 90px;
+    }
+
+    /* About 2 ---------------------------------------------------------------------------------------*/
+    #about-2 {
+        margin: 20px 80px;
+    }
+
+    #about-2 .about-img {
+        width: 30%;
+    }
+
+    /* Expectation ---------------------------------------------------------------------------------------*/
+    #expectation {
+        display: block;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #expectation .expectation-text {
+        text-align: left;
+    }
+
+    #expectation img {
+        display: none;
+    }
+
+    /* Top Destinations ---------------------------------------------------------------------------------------*/
+    #top-destinations .destinations {
+        gap: 40px;
+    }
+
+    #top-destinations .destinations img {
+        width: 280px;
+        height: 180px;
+    }
+
+    #top-destinations .destinations .column {
+        width: 280px;
+    }
+
+    /* Tipps-Banner ---------------------------------------------------------------------------------------*/
+    .tipps-image p {
+        padding: 0 80px;
+    }
+
+    /* Back to top Button ---------------------------------------------------------------------------------------*/
+    #back-to-top {
+         margin-top: 50px;
+     }
+}

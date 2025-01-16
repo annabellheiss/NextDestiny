@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #03A696;
-    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .nav-list {
@@ -68,7 +68,7 @@ body {
     margin: 3px 0;
 }
 
-/* Banner --------------------------------------------------------------------------------*/
+/* Header-Banner --------------------------------------------------------------------------------*/
 .header-image {
     position: relative;
     width: 100%;
@@ -76,14 +76,13 @@ body {
     display: flex;
     align-items: center; /* Vertikal zentrieren */
 }
- .header-image p {
-     width: 50%;
-     font-size: 1.2em;
-     margin: 10px 0;
- }
-
+.header-image p {
+    width: 50%;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
 .background-img {
-    background-image: url(./header-impressum.jpg);
+    background-image: url(/img/headerbild-impressum.jpg);
     filter: brightness(0.4);
     background-repeat: no-repeat;
     background-position: center;
@@ -93,19 +92,21 @@ body {
     width: 100%;
     z-index: 1;
 }
-.text{
+
+.text {
     position: relative;
     color: white;
     z-index: 2;
     padding-left: 100px;
 }
-.text h1{
+
+.text h1 {
     margin: 0;
     padding: 0;
     font-size: 50px;
 }
 
-.header-image button{
+.header-image button {
     margin-top: 20px;
     border: 1px solid #04BF9D;
     border-radius: 20px;
@@ -114,21 +115,20 @@ body {
     cursor: pointer;
 }
 
-.header-image button:hover{
+.header-image button:hover {
     background-color: #038C7F;
     border-color: #038C7F;
 }
 
-.header-image button a{
+.header-image button a {
     text-decoration: none;
     color: white;
     font-family: "Maven Pro", serif;
     font-weight: bold;
     text-transform: uppercase;
-
 }
 
-/* Main */
+/* Main ---------------------------------------------------------------------------------------*/
 
 main {
     margin: 50px;
@@ -163,14 +163,14 @@ h4 {
 }
 
 
-
-#back-to-top{
+/* Back to top Button ---------------------------------------------------------------------------------------*/
+#back-to-top {
     text-align: end;
     margin-right: 50px;
     margin-top: 20px;
-
 }
-#back-to-top a{
+
+#back-to-top a {
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -180,16 +180,16 @@ h4 {
     padding: 10px 15px;
     background-color: #04BF9D ;
     cursor: pointer;
-
 }
 
-#back-to-top a:hover{
+#back-to-top a:hover {
     text-decoration-line: underline;
     background-color: #038C7F;
     border-color: #038C7F;
 }
 
-footer{
+/* Footer ---------------------------------------------------------------------------------------*/
+footer {
     padding: 15px 0;
     margin-top: 50px;
     background-color:  #03A696;
